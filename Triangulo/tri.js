@@ -1,5 +1,4 @@
 //criar referências ao elementos da pagina
-
 const frm = document.querySelector("form");
 const resp1 = document.querySelector("h3");
 const resp2 = document.querySelector("h4");
@@ -18,7 +17,7 @@ frm.addEventListener("submit",(e) =>{
         resp1.innerText = "Formou Triângulo \n";
 
         if(Lado1 == Lado2 && Lado2 == Lado3 ||Lado2 == Lado3 && Lado1 == Lado2 || Lado3 == Lado1 && Lado2 == L ){
-            resp2.innerText = "Formou Equilatario! ";
+            resp2.innerText = "Formou Equilatario!";
             resp2.style.color = "red";
         }
         else if(Lado1 == Lado2 || Lado1== Lado3 || Lado3 == Lado2){
@@ -26,12 +25,12 @@ frm.addEventListener("submit",(e) =>{
             resp2.style.color = "blue";
         }
         else{
-            resp2.innerText = "Formou Escaleno";
+            resp2.innerText = "Formou Escaleno!";
             resp2.style.color = "green";
         }
     }else{
-        resp1.innerText = "Não forma triângulo";
-        resp1.style.color = "orange"
+        resp1.innerText = "Não forma triângulo!";
+        resp1.style.color = "orange";
     }
     
 })

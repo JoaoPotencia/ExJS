@@ -17,15 +17,15 @@ frm.addEventListener("submit",(e) =>{
         resp1.innerText = "Formou Triângulo \n";
 
         if(Lado1 == Lado2 && Lado2 == Lado3 ||Lado2 == Lado3 && Lado1 == Lado2 || Lado3 == Lado1 && Lado2 == L ){
-            resp2.innerText = "Formou Equilatario!";
+            resp2.innerText = "Triângulo Equilatario!";
             resp2.style.color = "red";
         }
         else if(Lado1 == Lado2 || Lado1== Lado3 || Lado3 == Lado2){
-            resp2.innerText = "Formou Isósceles!";
+            resp2.innerText = "Triângulo Isósceles!";
             resp2.style.color = "blue";
         }
         else{
-            resp2.innerText = "Formou Escaleno!";
+            resp2.innerText = "Triângulo Escaleno!";
             resp2.style.color = "green";
         }
     }else{

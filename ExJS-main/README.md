@@ -1,2 +1,0 @@
-# ExJS
-Exercícios JavaScript

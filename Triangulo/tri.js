@@ -29,7 +29,7 @@ frm.addEventListener("submit",(e) =>{
             resp2.style.color = "green";
         }
     }else{
-        resp1.innerText = "Não forma triângulo!";
+        resp1.innerText = "Não formou triângulo!";
         resp1.style.color = "orange";
     }
     

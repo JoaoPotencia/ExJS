@@ -3,10 +3,7 @@ const frm = document.querySelector("form");
 const tempoDePermanencia = document.querySelector("h3");
 const troco = document.querySelector("h4");
 
-//Se o valor for inferior ao tempo mínimo, exiba a mensagem: “Valor Insuficiente”. 
-//Valores: R$ 1,00 - 30 minutos
-//R$ 1.75 - 60 minutos 
-//R$3,00 - 120 minutos.
+
 frm.addEventListener("submit",(e) => {
    
     //Evita o envio do formulario

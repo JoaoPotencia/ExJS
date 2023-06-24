@@ -31,7 +31,7 @@ frm.addEventListener("submit", (e) => {
       
               //verificar se prox_valor e maior que o atual
               if (prox_valor > atual) {
-                  contador -= atual;
+                  contador -= atual;//senão contador descrementa do atual
                   continue;
               }
           }

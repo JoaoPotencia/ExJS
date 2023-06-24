@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    font-weight: bolder;
+    color: purple;
+    text-align: center;
+    background-color: white;
+    background-color: gray;
+    
+}
+form{
+    text-align: center;
+}
+
+p{
+    color: rgb(3, 3, 3);
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+pre{
+    color: rgb(95, 9, 9);
+    font-weight: bolder;
+    text-align: center;
+}
